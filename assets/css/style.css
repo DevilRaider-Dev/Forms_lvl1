@@ -1,0 +1,26 @@
+form{
+    display: inline-block;
+    margin: 5% auto;
+}
+div{
+    margin-bottom: 5%;
+    width: 100%;
+}
+div:not(div:first-of-type) input{ 
+    width: 97.5%;
+}
+div select, .submit{
+    width: 100%;
+}
+div select{
+    background-color: lightgray;
+}
+div .submit{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+div .submit:hover{
+    background-color: blue;
+    color: white;
+}
